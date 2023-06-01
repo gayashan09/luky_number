@@ -1,0 +1,32 @@
+import java.util.*;
+class main{
+    public static void lukyNum(){
+        Random r= new Random();
+        Scanner input=new  Scanner(System.in);
+
+        
+        for(int i =0;i<10;i++){
+            System.out.println("");
+
+            System.out.print("What is your name "+ " I can tell your luky number...");
+             String num=input.nextLine();
+             System.out.print(num);
+
+            int rand1 = r.nextInt(101);
+            System.out.println(" your luky number is : "+rand1);
+
+            System.out.println("_________________________________");
+            System.out.println("");
+        }
+
+    }
+    public static void main(String args []){
+
+        lukyNum();
+
+    }
+}
+
+		
+
+
